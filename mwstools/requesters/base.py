@@ -10,7 +10,7 @@ def raise_for_error(f):
     :return:
     """
     def inner(*args, **kwargs):
-        warn('`raise_for_error` is deprecated and will not process any response content.')
+        # warn('`raise_for_error` is deprecated and will not process any response content.')
         return f(*args, **kwargs)
         # e = ErrorResponse.load(content)
         # e.raise_for_error()

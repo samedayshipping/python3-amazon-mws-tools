@@ -144,3 +144,4 @@ py2venv/lib
 py2venv/include
 py2venv/local
 py2venv/bin
+/venvpy2/

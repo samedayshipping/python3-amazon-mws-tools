@@ -1,7 +1,10 @@
 from unittest import TestCase, TestSuite, makeSuite, main
 from requests import HTTPError
 
-from mws import DictWrapper
+try:
+    from mws import DictWrapper
+except ImportError:
+    from mws._mws import DictWrapper
 
 from mwstools.parsers.errors import ErrorElement, InvalidParameterValue
 from mwstools.requesters.reports import ReportRequester

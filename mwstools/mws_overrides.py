@@ -1,7 +1,8 @@
 try:
     from urllib.parse import urlparse, urlunsplit, urlencode, quote
 except ImportError:
-    from urllib import urlparse, urlunsplit, urlencode, quote
+    from urllib import quote, urlencode
+    from urlparse import urlparse, urlunsplit
 import hmac
 import hashlib
 import base64
