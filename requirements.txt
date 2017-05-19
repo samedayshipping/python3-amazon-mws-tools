@@ -2,7 +2,7 @@ appdirs==1.4.3
 lxml==3.7.3
 packaging==16.8
 pyparsing==2.2.0
--e git+git@github.com:ctaylor4874/python-amazon-mws.git@38e0ed8960df978af0f58e6547e5df3f55d5cac4#egg=python_amazon_mws
+-e git://github.com/ctaylor4874/python-amazon-mws.git@9fcd2464750fcf4ccef9f033598df95e188c9960#egg=python_amazon_mws
 python-dateutil==2.6.0
 requests==2.13.0
 six==1.10.0
