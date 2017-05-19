@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.4'
+VERSION = 'v1.0.0'
 
 REQUIREMENTS = [
     'lxml',
